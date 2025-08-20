@@ -5,6 +5,14 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "module": "dist/index.esm.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kecheste/react-why-rendered.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kecheste/react-why-rendered/issues"
+  },
+  "homepage": "https://github.com/kecheste/react-why-rendered#readme",
   "scripts": {
     "build:esm": "tsc --module ESNext --outDir dist/esm",
     "build:cjs": "tsc --module CommonJS --outDir dist/cjs",
