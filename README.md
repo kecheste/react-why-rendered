@@ -70,6 +70,13 @@ const MyEnhancedComponent = withWhyRendered(MyComponent);
 
 ---
 
+## Console Output Example
+
+![Console log output showing prop and state changes](screenshot.png)
+
+
+---
+
 ## Tips
 
 * Disable in production by wrapping `useWhyRendered` calls:
